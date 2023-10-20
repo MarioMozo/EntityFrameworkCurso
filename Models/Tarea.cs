@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace proyectoef.Models;
 
-public class Tareacscs{
+public class Tarea{
     [Key]   //Se declara el tipo de dato del FrameWork Entity, [Key] es llave primaria
     public Guid TareaId{get;set;}
     [ForeignKey("CategoriaId")]     //Lo mismo con la llave foranea desde donde se relaciona

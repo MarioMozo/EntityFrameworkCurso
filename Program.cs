@@ -11,7 +11,8 @@ var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
 
-app.MapGet("/dbconexion", async([FromServices] TareasContextcs dbContext) =>{
+app.MapGet("/dbconexion", async([FromServices] TareasContextcs dbContext) =>
+{
     dbContext.Database.EnsureCreated();
     return Results.Ok("Bases de datos en memoria: " + dbContext.Database.IsInMemory());
 });
