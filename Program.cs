@@ -4,8 +4,9 @@ using proyectoef;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<TareasContextcs>( p => p.UseInMemoryDatabase("TareasBD"));
-
+//builder.Services.AddDbContext<TareasContextcs>( p => p.UseInMemoryDatabase("TareasBD"));
+builder.Services.AddSqlServer<TareasContextcs>(builder.Configuration.GetConnectionString("cnTareas"));
+//Trusted_Connection=True; TrustServerCertificate=True; --> Error de conexión, se agregaron dos comandos de confiabilidad
 var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");

@@ -64,3 +64,4 @@ C:\Users\Mario Ivan\Documents\Cursos\EntityFramework\obj\Debug\net8.0\refint\Ent
 C:\Users\Mario Ivan\Documents\Cursos\EntityFramework\obj\Debug\net8.0\EntityFramework.pdb
 C:\Users\Mario Ivan\Documents\Cursos\EntityFramework\obj\Debug\net8.0\EntityFramework.genruntimeconfig.cache
 C:\Users\Mario Ivan\Documents\Cursos\EntityFramework\obj\Debug\net8.0\ref\EntityFramework.dll
+C:\Users\Mario Ivan\Documents\Cursos\EntityFramework\obj\Debug\net8.0\EntityFramework.sourcelink.json
